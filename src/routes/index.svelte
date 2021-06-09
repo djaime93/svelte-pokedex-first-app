@@ -1,6 +1,6 @@
 <script>
-    import Nav from "../components/nav.svelte"
-    console.log("hello world")
+    import {pokemon} from "../stores/pokestore";
+    console.log(pokemon)
 </script>
 <svelte:head>
     <title>Svelte Kit Pokdex</title>
