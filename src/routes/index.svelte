@@ -1,4 +1,5 @@
 <script>
+    import Nav from "../components/nav.svelte"
     console.log("hello world")
 </script>
 <svelte:head>
